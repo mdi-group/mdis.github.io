@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Software</title>
+  <meta name="description" content="Software developed or contributed to by MDIS">
+  <link rel="canonical" href="http://localhost:4000/software">
+  <link rel="alternate" type="application/rss+xml" title="MDIS Feed"
+    href="http://localhost:4000/feed.xml">
+  
+  <link rel="shortcut icon" href="/images/favicon.png" type="image/png" />
+  
+  <!-- Styles -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i%7CNoto+Serif:400,400i,700,700i&display=swap" rel="stylesheet">
+  <link href="/assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+  <div id="page" class="site">
+    <div class="inner">
+      <header class="site-header">
+  
+  <p class="site-title"><a class="logo-text" href="/">MDIS</a></p>
+  
+  <nav class="site-navigation">
+    <div class="site-navigation-wrap">
+      <h2 class="screen-reader-text">Main navigation</h2>
+      <ul class="menu">
+        
+        
+        
+        <li class="menu-item ">
+          <a class="" href="/about/">home</a>
+        </li>
+        
+        
+        
+        <li class="menu-item ">
+          <a class="" href="/group/">group</a>
+        </li>
+        
+        
+        
+        <li class="menu-item ">
+          <a class="" href="https://scholar.google.com/citations?user=eruLmgUAAAAJ&hl=en">publications</a>
+        </li>
+        
+        
+        
+        <li class="menu-item ">
+          <a class="" href="/software/">software</a>
+        </li>
+        
+        
+        
+        <li class="menu-item ">
+          <a class="" href="/news/">news</a>
+        </li>
+        
+      </ul><!-- .menu -->
+      <button id="menu-close" class="menu-toggle"><span class="screen-reader-text">Close Menu</span><span
+          class="icon-close" aria-hidden="true"></span></button>
+    </div><!-- .site-navigation-wrap -->
+  </nav><!-- .site-navigation -->
+  <button id="menu-open" class="menu-toggle"><span class="screen-reader-text">Open Menu</span><span class="icon-menu" aria-hidden="true"></span></button>
+</header>
+
+
+      <main class="main-content fadeInDown delay_075s">
+  <article class="post">
+    <header class="post-header">
+      <h1 class="post-title">Software</h1>
+      
+    </header><!-- .post-header -->
+    <div class="post-content">
+      <p>MDIS is involed in a number of open source software projects for the materials science 
+community. We believe in the power of open software to enrich and improve science. We
+try, wherever possible, to ensure that our computational work is accompinied by easy
+to use software. This often requires some significant additional effort and at times
+we have definitely cursed the decision to make software open and accessible, but the 
+rewards have always been more than worth the effort.</p>
+
+<h2 id="smact">SMACT</h2>
+
+<p>Semiconducting Materials by Analogy and Chemical Theory (SMACT) is a Python package
+for high-throughput virtual screening for new functional materials. SMACT uses 
+chemical heuristics to search through vast compositional spaces to identify target
+functional materials. SMACT also has functionallity for deriving reasonable 
+crystal structures for a given composition and can be used to interface with a range
+of modern machine learning techniques and atomistic modelling packages.</p>
+
+<p><strong>Code:</strong><a href="https://github.com/WMD-group/SMACT">https://github.com/WMD-group/SMACT</a> 
+<strong>Docs:</strong><a href="https://smact.readthedocs.io/en/latest/">https://smact.readthedocs.io/en/latest/</a></p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip <span class="nb">install </span>smact
+</code></pre></div></div>
+
+<h4 id="smact-in-action">SMACT in action</h4>
+
+<p>Some publications where SMACT has been used to discover new materials:</p>
+
+<ul>
+  <li><a href="https://www.sciencedirect.com/science/article/pii/S2451929416301553">Computational Screening of All Stoichiometric Inorganic Materials</a></li>
+  <li><a href="https://pubs.acs.org/doi/abs/10.1021/acs.chemmater.9b01519">Data-driven discovery of photoactive quaternary oxides using first-principles machine learning</a></li>
+  <li><a href="https://pubs.rsc.org/en/content/articlehtml/2018/sc/c7sc03961a">Computer-aided design of metal chalcohalide semiconductors: from chemical composition to crystal structure</a></li>
+  <li><a href="https://pubs.rsc.org/en/content/articlehtml/2018/fd/c8fd00032h">Materials discovery by chemical analogy: role of oxidation states in structure prediction</a></li>
+</ul>
+
+<h2 id="macrodensity">MacroDensity</h2>
+
+<p><em>MacroDensity</em> is a Python package for analysing and manipulating electron densities and 
+electrostatic potential maps obtained from modern electronic strucutre codes. The 
+primary functionality of MacroDensity is to obtain energy band alignment diagrams for
+extended solids, however it can also be used to explore and study potential maps for
+any arbitrary property.</p>
+
+<p><strong>Code:</strong><a href="https://github.com/WMD-group/MacroDensity">https://github.com/WMD-group/MacroDensity</a>
+<strong>Docs:</strong><a href="https://github.com/WMD-group/MacroDensity">https://github.com/WMD-group/MacroDensity</a></p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip <span class="nb">install </span>git+git://github.com/WMD-group/MacroDensity.git
+</code></pre></div></div>
+<h4 id="macrodensity-in-action">MacroDensity in action</h4>
+
+<p>Some publications where MacroDensity has been used:</p>
+
+<ul>
+  <li><a href="https://pubs.acs.org/doi/full/10.1021/ja4110073">Electronic Chemical Potentials of Porous Metal–Organic Frameworks</a></li>
+  <li><a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.89.115320">Crystal electron binding energy and surface work function control of tin dioxide</a></li>
+  <li><a href="https://aip.scitation.org/doi/abs/10.1063/1.4943973">Quasi-particle electronic band structure and alignment of the V-VI-VII semiconductors SbSI, SbSBr, and SbSeI for solar cells</a></li>
+  <li><a href="https://pubs.acs.org/doi/full/10.1021/acs.chemmater.6b00349">Interplay of Orbital and Relativistic Effects in Bismuth Oxyhalides: BiOF, BiOCl, BiOBr, and BiOI</a></li>
+  <li><a href="https://pubs.rsc.org/en/content/articlehtml/2015/mh/c4mh00174e">Band alignment of the hybrid halide perovskites CH<sub>3</sub>NH<sub>3</sub>PbCl<sub>3</sub>, CH<sub>3</sub>NH<sub>3</sub>PbBr<sub>3</sub> and CH<sub>3</sub>NH<sub>3</sub>PbI<sub>3</sub></a></li>
+</ul>
+
+<h2 id="unlocknn">UnlockNN</h2>
+
+<p><em>UnlockNN</em> is a Python package which can be used to combine the expressive power of 
+graph neural networks with the principled uncertainty quantification of Gaussian 
+processes. UnlockNN was written by Alex Moriarty - currently at UCL - and uses
+TensorFlow and TensorFlow Probability for an efficient implementation.</p>
+
+<p><strong>Code:</strong><a href="https://github.com/a-ws-m/unlockNN">https://github.com/a-ws-m/unlockNN</a>
+<strong>Docs:</strong><a href="https://unlocknn.readthedocs.io/en/latest/">https://unlocknn.readthedocs.io/en/latest/</a></p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip <span class="nb">install </span>unlocknn
+</code></pre></div></div>
+<h4 id="unclocknn-in-action">UnclockNN in action</h4>
+
+<p>Some publications where UnlockNN has been used:</p>
+
+<ul>
+  <li><a href="https://aip.scitation.org/doi/abs/10.1063/5.0065694">Entropy-based active learning of graph neural network surrogate models for materials properties</a></li>
+</ul>
+
+<h2 id="superrestomo">SuperResTomo</h2>
+
+<p><em>superres-tomo</em> is a package of useful scripts and models for applying neural networks for tomographic reconstruction of X-ray images. The package also includes models and scripts useful for the analysis of the images generated, allowing tasks such as semantic segmentation of very large images and removing noise from low dose images.</p>
+
+<p><strong>Code:</strong> <a href="https://github.com/keeeto/super_tomo_py">https://github.com/keeeto/super_tomo_py</a>
+<strong>Docs:</strong> <a href="https://superres-tomo.readthedocs.io/en/latest/about.html">https://superres-tomo.readthedocs.io/en/latest/about.html</a></p>
+
+    </div><!-- .post-content -->
+  </article><!-- .post -->
+</main><!-- .site-main -->
+
+      <footer class="site-footer">
+  <div class="offsite-links">
+    
+      
+<a href="https://twitter.com/" target="_blank" rel="noopener">
+  <span class="fa-twitter" aria-hidden="true"></span>
+  <span class="screen-reader-text">Twitter</span>
+</a>
+
+<a href="https://github.com/" target="_blank" rel="noopener">
+  <span class="fa-github" aria-hidden="true"></span>
+  <span class="screen-reader-text">GitHub</span>
+</a>
+
+<a href="https://www.instagram.com/" target="_blank" rel="noopener">
+  <span class="fa-instagram" aria-hidden="true"></span>
+  <span class="screen-reader-text">Instagram</span>
+</a>
+
+<a href="https://www.linkedin.com/" target="_blank" rel="noopener">
+  <span class="fa-linkedin" aria-hidden="true"></span>
+  <span class="screen-reader-text">LinkedIn</span>
+</a>
+
+    
+  </div><!-- .offsite-links -->
+  <div class="footer-bottom">
+    <div class="site-info">
+      <p>© Scriptor all rights reserved. Theme by <a href="https://www.justgoodthemes.com">JustGoodThemes</a>.</p>
+
+    </div><!-- .site-info -->
+    <a href="#page" id="back-to-top" class="back-to-top"><span class="screen-reader-text">Back to the top </span>&#8593;</a>
+  </div><!-- .footer-bottom -->
+</footer><!-- .site-footer -->
+
+    </div><!-- .inner -->
+  </div><!-- .site -->
+
+  <!-- Scripts -->
+  
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+</script>
+  
+  <script src="/assets/js/plugins.js"></script>
+  <script src="/assets/js/custom.js"></script>
+
+</body>
+</html>
