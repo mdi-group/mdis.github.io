@@ -2,7 +2,7 @@
 layout: post
 title: "PhD Opportunity: Data driven discovery of new photoactive ferroelectrics"
 description: "Data driven discovery of new photoactive ferroelectrics"
-date: 2022-11-20
+date: 2022-11-19
 feature_image: images/photoferroics.gif
 tags: [openings]
 ---
