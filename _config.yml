@@ -9,11 +9,10 @@
 lang: en-US
 
 # Site title
-title: "MDIS"
+title: "Scriptor"
 
 # A description of your site for meta tag, search engine results.
-#description: "Scriptor is a minimal, clean, modern & responsive Jekyll theme for writers"
-description: ""
+description: "Scriptor is a minimal, clean, modern & responsive Jekyll theme for writers"
 
 # The subpath of your site, e.g. /blog, for generating urls.
 baseurl: ""
@@ -29,22 +28,22 @@ google_analytics: ""
 
 # Site navigation - each item must have a title and a url.
 navigation:
-  - text: home
+  - text: Home
+    url: /
+  - text: About
     url: /about/
-  - text: group
-    url: /group/
-  - text: publications
-    url: https://scholar.google.com/citations?user=eruLmgUAAAAJ&hl=en
-  - text: software
-    url: /software/
-  - text: news
-    url: /news/
+  - text: Style Guide
+    url: /style-guide/
+  - text: Tags
+    url: /tags/
+  - text: Download
+    url: https://github.com/JustGoodThemes/Scriptor-Jekyll-Theme
 
 # The shortname for your Disqus site to enable comments.
 disqus: justgoodthemes
 
 # Colors
-accent_color: '#a3a3c2'
+accent_color: '#2d72d9'
 
 # Site footer
 footer:
@@ -54,8 +53,6 @@ footer:
 # Plugins
 plugins:
   - jekyll-paginate
-  - jekyll-redirect-from
-  - jekyll/scholar
 
 # http://jekyllrb.com/docs/pagination/
 paginate: 3
@@ -72,28 +69,3 @@ markdown: kramdown
 sass:
   sass_dir: _sass
   style: compressed
-
-# Bibliography
-scholar:
-
-  last_name: butler
-  first_name: keith
-
-  style: apa
-  locale: en
-
-  sort_by: year
-  order: descending
-
-  source: /_bibliography/
-  bibliography: papers.bib
-  bibliography_template: bib
-
-  replace_strings: true
-  join_strings: true
-
-  details_dir: bibliography
-  details_layout: bibtex.html
-  details_link: Details
-
-  query: "@*"
